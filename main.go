@@ -54,7 +54,7 @@ import (
 	_ "github.com/LiterMC/go-openbmclapi/lang/zh"
 )
 
-const ClusterServerURL = "https://openbmclapi.bangbang93.com"
+const ClusterServerURL = "https://files.mcimirror.top"
 
 var (
 	KeepAliveInterval = time.Second * 59

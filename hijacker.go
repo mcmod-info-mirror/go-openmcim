@@ -104,7 +104,7 @@ func hjResponseWithCache(rw http.ResponseWriter, req *http.Request, c *cacheStat
 	return true
 }
 
-const hijackingHost = "bmclapi2.bangbang93.com"
+const hijackingHost = "files.mcimirror.top"
 
 func (h *HjProxy) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 	if !config.Hijack.Enable {
