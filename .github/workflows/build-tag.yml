@@ -1,7 +1,10 @@
 
 name: Create tagged release
 
-on: push
+on: 
+  - push 
+  - workflow_dispatch
+
 
 jobs:
   test:
